@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "npx openapi-typescript https://raw.githubusercontent.com/ory/kratos/master/.schema/openapi.json -o ./schema.d.ts"
   },
   "dependencies": {
     "react": "^18",
